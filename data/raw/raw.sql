@@ -5,6 +5,6 @@ SELECT
   ROUND(SUM(quantity),2) as quantity,
   ROUND(SUM(purchase_cost),2) as purchase_cost,
   ROUND(SUM(margin),2) as margin
-FROM `le-wagon-1580`.`dbt_test_1788`.`int_sales_margin`
+FROM `le-wagon-1788`.`dbt_test_1788`.`int_sales_purchase`
 GROUP BY orders_id
 ORDER BY orders_id DESC
